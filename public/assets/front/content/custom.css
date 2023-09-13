@@ -1,0 +1,48 @@
+.show-gallery-link-area {
+    margin-bottom: 5vh;
+    margin-top: 0;
+}
+
+.show-gallery-link {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1321px) {
+    .eurocupLogo {
+        max-width: 260px;
+        margin-left: 20px;
+        top: -40px;
+    }
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 1201px) {
+    .eurocupLogo {
+        max-width: 260px;
+        margin-left: 20px;
+        top: -40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+    .eurocupLogo {
+        max-width: 220px;
+        margin-left: 40px;
+        top: -25px;
+    }
+}
+
+@media only screen and (max-width: 490px) and (min-width: 381px) {
+    .eurocupLogo {
+        max-width: 300px;
+        margin-left: 68px;
+        top: -50px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .eurocupLogo {
+        max-width: 300px;
+        margin-left: 48px;
+        top: -50px;
+    }
+}

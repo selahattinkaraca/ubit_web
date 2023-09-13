@@ -1,0 +1,37 @@
+
+.bkbasketbol-color, .bkbasketbol-colorhover:hover {
+    color: #ff0001
+}
+
+.navbar-nav > li:hover > a,.navbar-nav > li.active > a,.bkbasketbol-megalist li:hover a,.widget_twitter ul li p a,.widget_trending_news .nav-tabs li.active a,
+.widget_trending_news .nav-tabs li:hover a,.widget_twitter ul li p a,.widget_awards .slick-arrow:hover i,.bkbasketbol-partner-slider .slick-arrow:hover i,.bkbasketbol-bloglarge ul li:hover .bkbasketbol-readmore-btn,
+.bkbasketbol-player-thumb-text h3 span,.bkbasketbol-player-list ul li:hover .bkbasketbol-player-list-text h5 a,.sportmagazine-score-counter p span,.bkbasketbol-modern-player figure figcaption h3 > span,
+.star-rating:before,.star-rating-box:before,.bkbasketbol-shop-grid section > .price-cart {
+    color: #ef0000;
+}
+.bkbasketbol-bgcolor, .bkbasketbol-bgcolorhover:hover,.navbar-nav > li > a:before,.navbar-nav > li > a:after,.footer-widget-title h2:before,.footer-widget-title h2:after,.widget_gallery ul li a:before,
+.bkbasketbol-copyright-left:before,.bkbasketbol-copyright-right:after,.bkbasketbol-fixture-slider .slick-arrow:hover,ul li:hover .bkbasketbol-link-btn,.bkbasketbol-add-banner figcaption:before,
+.bkbasketbol-add-banner figcaption:after,.bkbasketbol-add-banner:before,.bkbasketbol-add-banner:after,.bkbasketbol-player-nav-layer.slick-current,.widget_trending_news .nav-tabs li a:before,
+.bkbasketbol-section-heading h2:before,.bkbasketbol-section-heading h2:after,.bkbasketbol-article-text time,.bkbasketbol-widget-heading h2:before,.bkbasketbol-widget-heading h2:after,
+.bkbasketbol-contactus-info ul li i,blockquote:after,blockquote span:before,.bkbasketbol-tags a:hover,.bkbasketbol-prenxt-post ul li figure a:before,.bkbasketbol-bloglarge-text time,
+.bkbasketbol-bloglarge ul li:hover .bkbasketbol-readmore-btn:before,.bkbasketbol-blogmodren-option,.bkbasketbol-player-list figure:before,.bkbasketbol-player-list figure:after,
+.bkbasketbol-forword-btn,.bkbasketbol-fixture-gallery figure span,.bkbasketbol-fixture-gallery figure figcaption time,.bkbasketbol-fixture-wrap:before,.bkbasketbol-modren-fixture-text {
+    background-color: #ef0000;
+}
+.bkbasketbol-bordercolor, .bkbasketbol-bordercolorhover:hover,.bkbasketbol-fancy-title,.bkbasketbol-topstrip-two {
+    border-color: #ef0000;
+}
+.bkbasketbol-modal-close:before,.bkbasketbol-fixture-slider-layer ul:before,.bkbasketbol-featured-slider .slick-arrow-left.slick-arrow:hover:before,
+.widget_trending_news .nav-tabs li.active a:after,.bkbasketbol-modren-team-one:before,.bkbasketbol-modren-team-two:before {
+	border-top-color: #ef0000;
+}
+.bkbasketbol-login-box form label:after,.bkbasketbol-fixture-slider .slick-arrow:hover:after,.bkbasketbol-contactus-info ul li i:after {
+	border-left-color: #ef0000;
+}
+.bkbasketbol-fixture-slider .slick-arrow:hover:before,.bkbasketbol-player-slider-image:before {
+	border-right-color: #ef0000;
+}
+.bkbasketbol-fancy-title:before,.bkbasketbol-featured-slider .slick-arrow-right.slick-arrow:hover:after,.bkbasketbol-player-slider-nav:after,
+.bkbasketbol-blogmodren-option:before,.bkbasketbol-fixture-gallery figure:before,.bkbasketbol-modren-team-one:after,.bkbasketbol-modren-team-two:after {
+	border-bottom-color: #ef0000;
+}

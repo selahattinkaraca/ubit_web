@@ -1,0 +1,3090 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+    .navbar {
+        position: relative;
+        float: right;
+    }
+
+    .navbar-toggle {
+        display: block;
+        background-color: #eee;
+        margin: 30px 30px 13px 0px;
+    }
+
+    .navbar-collapse {
+        padding: 0px 0px 0px 0px;
+        width: 260px;
+        background-color: #272727;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10);
+        border: none;
+        position: absolute;
+        right: 30%;
+        top: 100%;
+        z-index: 999999;
+        margin: 00px 0px 10px 10px;
+        float: left;
+    }
+
+    #bkbasketbol-header .collapse {
+        display: none;
+    }
+
+        #bkbasketbol-header .collapse.in {
+            display: block;
+        }
+
+    .bkbasketbol-thumbnail {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav > li:first-child > a {
+        padding-left: 22px;
+    }
+
+    .navbar-nav {
+        margin: 0px;
+    }
+
+        .navbar-nav > li > a:before, .navbar-nav > li > a:after {
+            display: none;
+        }
+
+    .bkbasketbol-dropdown-menu {
+        float: right;
+        width: 100%;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: none;
+    }
+
+
+    .bkbasketbol-dropdown-menu, .bkbasketbol-megamenu {
+        -webkit-transform: translate(0px);
+        -moz-transform: translate(0px);
+        -ms-transform: translate(0px);
+        -o-transform: translate(0px);
+        transform: translate(0px);
+    }
+
+    .bkbasketbol-megamenu {
+        float: right;
+        min-width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+        padding: 20px 8px 5px 8px;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .bkbasketbol-megamenu [class*="col-md-"] {
+            width: 100%;
+            float: right;
+            margin-bottom: 15px;
+        }
+
+        .bkbasketbol-megamenu .row {
+            margin: 0px;
+        }
+
+    .navbar-nav > li > a {
+        float: right;
+        width: 100%;
+        padding: 20px 20px 10px 20px;
+    }
+
+    .navbar-nav > li {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    /* Header */
+    .bkbasketbol-sticky .bkbasketbol-main-header {
+        position: static;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-header-two .navbar {
+        position: static;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-logo-two, .bkbasketbol-sticky .header-info {
+        display: block;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-header-two .bkbasketbol-main-header {
+        background: #292c31;
+    }
+
+    .bkbasketbol-search-btn {
+        padding: 37px 0px 47px;
+    }
+    /* .bkbasketbol-banner-caption { display: none;} */
+    .bkbasketbol-banner-thumb {
+        display: none;
+    }
+
+    .bkbasketbol-banner-wrap {
+        float: left;
+        width: 50%;
+        padding-top: 60px;
+    }
+
+    .bkbasketbol-banner-thumb {
+        float: left;
+        width: 50%;
+        margin: 30px 0px 0px;
+    }
+
+        .bkbasketbol-banner-thumb img {
+            float: right;
+        }
+
+    .bkbasketbol-banner-wrap h1 {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
+        .bkbasketbol-banner-wrap h1 span {
+            font-size: 18px;
+            display: block;
+        }
+
+            .bkbasketbol-banner-wrap h1 span:last-child {
+                text-align: right;
+            }
+
+    .bkbasketbol-banner-wrap p {
+        color: #ffffff;
+        margin-bottom: 37px;
+        font-size: 18px;
+    }
+
+    .bkbasketbol-banner-btn {
+        display: inline-block;
+        color: #ffffff;
+        font-weight: bold;
+        border: 1px solid #ffffff;
+        border-right: none;
+        padding: 11px 19px 12px 19px;
+        line-height: 1;
+        position: relative;
+    }
+
+
+
+    /* Content */
+    .bkbasketbol-fixture-slider-layer ul:before, .bkbasketbol-fixture-slider-layer ul li.first-child:before {
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+    }
+
+    .bkbasketbol-blog > ul > li {
+        float: left;
+        width: 50%;
+    }
+
+    .bkbasketbol-blog-grid section {
+        padding: 19px 25px 0;
+    }
+
+    .bkbasketbol-blog-list ul li {
+        float: none;
+    }
+
+    .bkbasketbol-match-result {
+        background-position: center;
+    }
+
+    .bkbasketbol-blog-list {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-addbanner-caption {
+        width: 71%;
+    }
+
+    .widget_trending_news .nav-tabs li {
+        padding: 0 13px;
+    }
+
+    .bkbasketbol-footer-widget .widget {
+        float: left;
+        width: 50%;
+    }
+
+    .bkbasketbol-logo-two {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin: 30px 0 20px;
+    }
+
+    .header-info {
+        padding: 0px;
+    }
+
+    .bkbasketbol-header-two .navbar-default {
+        background-color: transparent;
+    }
+
+    .navbar-header {
+        float: right;
+    }
+
+    .bkbasketbol-header-two .navbar-nav > li {
+        padding: 0px;
+    }
+
+    .bkbasketbol-section-post {
+        background-size: cover;
+    }
+
+    .bkbasketbol-section-post-text {
+        width: 70%;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow-left.slick-arrow, .bkbasketbol-partner-slider .slick-arrow {
+        top: 27px;
+    }
+
+    .bkbasketbol-latest-result {
+        text-align: center;
+    }
+
+    .bkbasketbol-result-text, .bkbasketbol-next-game-text {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-latest-result {
+        margin: 0px 0px 30px;
+    }
+
+    .game-countdown-heading {
+        padding: 14px 150px;
+    }
+
+    .bkbasketbol-blog.bkbasketbol-blog-medium > ul > li {
+        width: 100%;
+    }
+
+    .bkbasketbol-blogmedium-text {
+        padding: 35px 75px 22px 20px;
+    }
+
+    .bkbasketbol-footer-two {
+        background-size: cover;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow {
+        right: -24px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow-left.slick-arrow {
+        left: -24px;
+        z-index: 1;
+    }
+
+    .bkbasketbol-header-one .navbar {
+        float: left;
+    }
+
+    .bkbasketbol-header-one .navbar-collapse {
+        left: 0px;
+    }
+
+    .bkbasketbol-error-wrap form {
+        width: 92%;
+    }
+
+    .bkbasketbol-copyright-left {
+        float: left;
+    }
+
+    .bkbasketbol-account-tabs .nav-tabs li a {
+        padding: 19px 15px;
+    }
+
+    .bkbasketbol-thumb-text h2 {
+        width: 86%;
+        font-size: 32px;
+        line-height: 37px;
+        margin: 0px 0px 10px;
+    }
+
+    .bkbasketbol-contact-form form p input[type="text"] {
+        width: 86%;
+    }
+
+    .bkbasketbol-contact-form form ul li p:before, .bkbasketbol-contact-form form ul li p:after {
+        right: 15%;
+    }
+
+    .bkbasketbol-team-two {
+        float: right;
+    }
+
+    .widget_matches ul li {
+        text-align: center;
+    }
+
+        .widget_matches ul li > span {
+            float: none;
+            display: inline-block;
+        }
+
+    /* here */
+    .bkbasketbol-right-section {
+        float: right;
+        padding-right: 140px;
+    }
+
+    .bkbasketbol-bloglarge-text {
+        padding: 21px 26px 15px;
+    }
+
+    .bkbasketbol-first-team {
+        padding: 28px 0px 29px 10px;
+        margin: 0px;
+    }
+
+    .bkbasketbol-second-team {
+        padding: 28px 10px 29px 0px;
+    }
+
+    .bkbasketbol-first-team:before {
+        border-right: 75px solid transparent;
+        right: -75px;
+    }
+
+    .bkbasketbol-second-team:before {
+        border-left: 75px solid transparent;
+        left: -75px;
+    }
+
+    .bkbasketbol-match-view h5 {
+        padding: 8px 14px 8px 15px;
+    }
+
+    .bkbasketbol-match-view {
+        position: relative;
+        z-index: 1;
+    }
+
+    .bkbasketbol-buy-ticket {
+        padding: 12px 14px 13px 22px;
+        text-align: center;
+    }
+
+    .bkbasketbol-match-info li {
+        margin: 0 15px 10px 0;
+    }
+
+    .bkbasketbol-fixture ul li {
+        float: left;
+    }
+
+    .bkbasketbol-classic-match-text {
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-classic-fixture-wrap {
+        text-align: center;
+    }
+
+    .bkbasketbol-fixture.bkbasketbol-classic-fixture ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-modren-fixture-text {
+        text-align: center;
+    }
+
+    .bkbasketbol-modren-match-text {
+        display: inline-block;
+        float: none;
+        padding: 0px;
+    }
+
+    .bkbasketbol-fixture.bkbasketbol-modren-fixture ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-modren-fixture-text {
+        text-align: center;
+    }
+
+    .bkbasketbol-modren-match-text {
+        display: inline-block;
+        float: none;
+        padding: 0px;
+    }
+
+    .bkbasketbol-fixture.bkbasketbol-modren-fixture ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-offstanding-text li {
+        width: 33.333%;
+    }
+
+    .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > th, .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > td {
+        float: left;
+        padding: 20px 0px;
+        width: 20%;
+    }
+
+    .bkbasketbol-overview-team-two {
+        float: right;
+        padding: 94px 0 29px 10px;
+    }
+
+    .bkbasketbol-overview {
+        padding: 44px 20px 15px;
+    }
+
+    .bkbasketbol-overview-team-one {
+        padding: 90px 10px 29px 0px;
+    }
+
+    .bkbasketbol-overview-scorecard {
+        margin: 0px 3px 30px;
+    }
+
+    .bkbasketbol-gamestats-btn {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-team-leader-section {
+        padding: 0px 10px 0px 0px;
+    }
+
+        .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo {
+            padding: 0px 0px 0px 10px;
+        }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-buy-ticket {
+        width: 30%;
+        padding: 12px 10px 0px;
+        text-align: center;
+    }
+
+    .bkbasketbol-buy-ticket-text {
+        margin: 0px 0px 5px;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-teams-match {
+        width: 70%;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-fixture-wrap:before {
+        right: 29%;
+    }
+
+    .ticket-buy-btn {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-player-info li {
+        width: 50%;
+    }
+
+    .bkbasketbol-player-grid figure span:before {
+        border-right: 13px solid transparent;
+        margin: 0px 0px 0px -14px;
+    }
+
+    .bkbasketbol-player-grid figure span:after {
+        border-left: 12px solid transparent;
+        margin: 0px -14px 0px 0px;
+    }
+
+    .bkbasketbol-blog-social ul li a {
+        margin: -1px 0px 0px;
+        padding: 4px 16px 0 0;
+    }
+
+    .bkbasketbol-client-detail tr > td {
+        padding: 14px 27px 10px 22px;
+    }
+
+    .bkbasketbol-player-list-text p {
+        width: 77%;
+    }
+
+    .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > td, .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > th {
+        padding: 12px 10px;
+    }
+
+    .bkbasketbol-form-result form {
+        width: 94%;
+    }
+
+    .star-rating-box:before {
+        left: 29px;
+    }
+
+    .bkbasketbol-shop-grid figure .star-rating .star-rating-box:before {
+        left: 42px;
+    }
+
+    .bkbasketbol-shop-list-text p {
+        margin: 0px 0px 5px;
+    }
+
+    .bkbasketbol-shop-list-text {
+        padding: 12px 0 23px 30px;
+    }
+
+    .player-stats-text .star-rating-box:before {
+        left: -1px;
+    }
+
+    .bkbasketbol-wishlist-graph ul li {
+        padding: 0 15px 11px;
+    }
+
+    .bkbasketbol-wishlist-graph ul.wishlist-graph li {
+        padding: 30px 10px;
+    }
+
+        .bkbasketbol-wishlist-graph ul.wishlist-graph li:first-child, .bkbasketbol-wishlist-graph ul li:first-child {
+            padding: 0 0 0 15px;
+        }
+
+    .bkbasketbol-wishlist-graph .star-rating {
+        width: 109%;
+    }
+
+    .bkbasketbol-wishlist-graph .star-rating-box:before {
+        left: -3px;
+    }
+
+    .bkbasketbol-contact-text p, .bkbasketbol-contact-text a {
+        width: 100%;
+    }
+
+    .bkbasketbol-search-box input[type="text"] {
+        font-size: 55px;
+    }
+
+    .bkbasketbol-search-box i {
+        font-size: 46px;
+    }
+
+    .bkbasketbol-user-link li:first-child {
+        margin-left: 0px;
+    }
+
+    .bkbasketbol-testimonial-text::after {
+        width: 69%;
+    }
+
+    .bkbasketbol-classic-team-one {
+        padding: 70px 50px 69px;
+    }
+
+    .bkbasketbol-classic-team-two {
+        padding: 70px 30px 69px;
+    }
+
+    .bkbasketbol-dropdown-menu .bkbasketbol-dropdown-menu {
+        left: 0px;
+    }
+
+
+
+    /* Main Grid */
+    .bkbasketbol-main-content .col-md-4, .bkbasketbol-main-content .col-md-3 {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -4px;
+        width: 50%;
+    }
+
+    .bkbasketbol-main-content .col-md-7, .bkbasketbol-main-content .col-md-5 {
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+    .navbar {
+        position: relative;
+        text-align: right;
+    }
+
+    .navbar-toggle {
+        display: block;
+        background-color: #FFFFFF;
+        margin: 30px 30px 25px 0px;
+    }
+
+    .navbar-collapse {
+        padding: 0px 0px 0px 0px;
+        width: 260px;
+        background-color: #272727;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10);
+        border: none;
+        position: absolute;
+        right: 0%;
+        top: 100%;
+        z-index: 9999;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #bkbasketbol-header .collapse {
+        display: none;
+    }
+
+        #bkbasketbol-header .collapse.in {
+            display: block;
+        }
+
+    .bkbasketbol-thumbnail {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav > li:first-child > a {
+        padding-left: 22px;
+    }
+
+    .navbar-nav {
+        margin: 0px;
+    }
+
+        .navbar-nav > li > a:before, .navbar-nav > li > a:after {
+            display: none;
+        }
+
+    .bkbasketbol-dropdown-menu {
+        float: right;
+        width: 100%;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: none;
+    }
+
+    .bkbasketbol-dropdown-menu, .bkbasketbol-megamenu {
+        -webkit-transform: translate(0px);
+        -moz-transform: translate(0px);
+        -ms-transform: translate(0px);
+        -o-transform: translate(0px);
+        transform: translate(0px);
+    }
+
+    .bkbasketbol-megamenu {
+        float: left;
+        min-width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+        padding: 20px 8px 5px 8px;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .bkbasketbol-megamenu [class*="col-md-"] {
+            width: 100%;
+            float: left;
+            margin-bottom: 15px;
+        }
+
+        .bkbasketbol-megamenu .row {
+            margin: 0px;
+        }
+
+    .navbar-nav > li > a {
+        float: left;
+        width: 100%;
+        padding: 20px 20px 10px 20px;
+    }
+
+    .navbar-nav > li {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    /* Main Grid */
+    .bkbasketbol-main-content .col-md-4, .bkbasketbol-main-content .col-md-3 {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -4px;
+        width: 50%;
+    }
+
+    .bkbasketbol-main-content .col-md-7, .bkbasketbol-main-content .col-md-5 {
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+
+
+    /* Header */
+    .bkbasketbol-top-strip {
+        text-align: center;
+    }
+
+        .bkbasketbol-top-strip [class*="col-md-"] {
+            display: inline-block;
+        }
+
+    .bkbasketbol-strip-social li {
+        margin-top: 0px;
+    }
+
+    .navbar-header {
+        float: right;
+    }
+    /* Header two */
+    .bkbasketbol-logo-two {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0 20px;
+    }
+
+    .header-info li {
+        width: 50%;
+    }
+
+    .bkbasketbol-header-two .navbar-default {
+        background-color: transparent;
+    }
+
+    .bkbasketbol-header-two .navbar-nav > li {
+        padding: 0px;
+    }
+
+    .bkbasketbol-banner-two .slick-dots {
+        bottom: 7px;
+    }
+
+    .bkbasketbol-header-two .navbar-default {
+        padding: 0px;
+        width: auto;
+        float: right;
+    }
+
+    /* Banner*/
+    /* .bkbasketbol-banner-caption { display: none;} */
+    .bkbasketbol-banner-thumb {
+        display: none;
+    }
+
+    .bkbasketbol-banner-wrap {
+        float: left;
+        width: 50%;
+        padding-top: 60px;
+    }
+
+    .bkbasketbol-banner-thumb {
+        float: left;
+        width: 50%;
+        margin: 30px 0px 0px;
+    }
+
+        .bkbasketbol-banner-thumb img {
+            float: right;
+        }
+
+    .bkbasketbol-banner-wrap h1 {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
+        .bkbasketbol-banner-wrap h1 span {
+            font-size: 18px;
+            display: block;
+        }
+
+            .bkbasketbol-banner-wrap h1 span:last-child {
+                text-align: right;
+            }
+
+    .bkbasketbol-banner-wrap p {
+        color: #ffffff;
+        margin-bottom: 37px;
+        font-size: 18px;
+    }
+
+    .bkbasketbol-banner-btn {
+        display: inline-block;
+        color: #ffffff;
+        font-weight: bold;
+        border: 1px solid #ffffff;
+        border-right: none;
+        padding: 11px 19px 12px 19px;
+        line-height: 1;
+        position: relative;
+    }
+
+    .bkbasketbol-funclub {
+        display: none;
+    }
+
+    /* Content */
+    .bkbasketbol-social-network, .bkbasketbol-user-section {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 15px;
+    }
+
+    .bkbasketbol-logo {
+        margin: 0px;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .bkbasketbol-social-network li, .bkbasketbol-user-section > li {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-logo:before {
+        width: 100%;
+        height: 3px;
+        top: auto;
+        right: 0px;
+        bottom: 0px;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .bkbasketbol-match-result {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bkbasketbol-right-section {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .bkbasketbol-search-btn {
+        padding: 0px;
+        float: none;
+        display: inline-block;
+        -webkit-transform: translateY(-37px);
+        -moz-transform: translateY(-37px);
+        -ms-transform: translateY(-37px);
+        -o-transform: translateY(-37px);
+        transform: translateY(-37px);
+    }
+
+    .bkbasketbol-featured-caption {
+        width: 100%;
+        padding: 0 0 25px 30px;
+    }
+
+        .bkbasketbol-featured-caption h2 {
+            font-size: 18px;
+        }
+
+    .bkbasketbol-blog > ul > li {
+        float: left;
+    }
+
+    .bkbasketbol-blog-list {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-addbanner-caption {
+        width: 80%;
+        padding: 35px 0 0 60px;
+    }
+
+        .bkbasketbol-addbanner-caption h2 {
+            font-size: 18px;
+            margin: 0px 0px 6px;
+        }
+
+        .bkbasketbol-addbanner-caption p {
+            margin: 0px 0px 12px;
+            line-height: 20px;
+        }
+
+    .bkbasketbol-add-banner:before {
+        height: 150px;
+        right: 30px;
+    }
+
+    .bkbasketbol-add-banner:after {
+        width: 150px;
+        bottom: 30px;
+    }
+
+    .bkbasketbol-player-slider-nav {
+        width: 94%;
+        float: right;
+    }
+
+    .bkbasketbol-player-slider-image {
+        width: 100%;
+        border: none;
+    }
+
+    .bkbasketbol-fixture-slider-layer ul li.first-child:before, .bkbasketbol-fixture-slider-layer ul:before {
+        border-left: 80px solid transparent;
+        border-right: 80px solid transparent;
+    }
+
+    .ranking-content-table {
+        padding: 0px;
+    }
+
+    .widget_trending_news > .nav-tabs > li {
+        float: left;
+    }
+
+    .bkbasketbol-footer-widget .widget {
+        float: left;
+        width: 100%;
+    }
+
+    .bkbasketbol-user-section > li {
+        margin: 0 13px 10px 0;
+    }
+
+    .bkbasketbol-add-banner figcaption:before {
+        height: 150px;
+        left: 30px;
+    }
+
+    .bkbasketbol-add-banner figcaption:after {
+        width: 150px;
+        top: 30px;
+    }
+
+    .bkbasketbol-player-slider-image:before {
+        display: none;
+    }
+
+    .bkbasketbol-fixture-gallery ul li {
+        width: 50%;
+    }
+
+    .bkbasketbol-main-content aside.col-md-4 {
+        width: 100%;
+    }
+
+    .bkbasketbol-blog-medium figure {
+        width: 100%;
+    }
+
+        .bkbasketbol-blog-medium figure ~ .bkbasketbol-blogmedium-text {
+            margin: 0px;
+        }
+
+    .bkbasketbol-blogmedium-text {
+        float: left;
+        width: 100%;
+        padding: 30px 25px 22px;
+    }
+
+    .bkbasketbol-blog-medium figure:before {
+        height: 40px;
+        width: 100%;
+        right: 0px;
+        bottom: -16px;
+        -webkit-transform: rotate(-6deg);
+        -moz-transform: rotate(-6deg);
+        -ms-transform: rotate(-6deg);
+        -o-transform: rotate(-6deg);
+        transform: rotate(-6deg);
+    }
+
+    .bkbasketbol-blog-medium figure:after {
+        border-top: 25px solid transparent;
+        border-right: 213px solid #e7e7e7;
+        border-bottom: 25px solid transparent;
+        right: 0px;
+        bottom: -11px;
+    }
+
+    .bkbasketbol-classic-player-info {
+        top: 25px;
+    }
+
+    .bkbasketbol-fancy-title-two h2 {
+        font-size: 26px;
+    }
+
+    .bkbasketbol-testimonial-text:after {
+        width: 60%;
+    }
+
+    .widget-images-list .slick-arrow {
+        top: -140%;
+    }
+
+        .widget-images-list .slick-arrow.slick-arrow-left {
+            z-index: 1;
+        }
+
+    .header-info {
+        padding: 0px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow {
+        right: 0px;
+        top: 26px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow-left.slick-arrow {
+        left: 0px;
+        z-index: 1;
+        top: 26px;
+    }
+
+    .bkbasketbol-section-post {
+        background-size: cover;
+    }
+
+    .bkbasketbol-section-post-text {
+        width: 90%;
+    }
+
+    .bkbasketbol-result-one, .bkbasketbol-result-two {
+        padding: 109px 0 55px;
+    }
+
+    .bkbasketbol-score-result {
+        padding: 61px 50px 65px;
+    }
+
+    .bkbasketbol-result-text:before {
+        left: -26%;
+    }
+
+    .bkbasketbol-latest-result {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-next-game .bkbasketbol-result-one {
+        padding: 0 15px;
+        margin: 0 10px 28px 0;
+    }
+
+    .bkbasketbol-next-game .bkbasketbol-result-two {
+        padding: 0px 15px;
+    }
+
+    .bkbasketbol-next-game-text {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-latest-result {
+        text-align: center;
+    }
+
+    .bkbasketbol-result-text {
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-blog.bkbasketbol-blog-medium > ul > li {
+        width: 50%;
+    }
+
+    .bkbasketbol-copyright-two:after, .bkbasketbol-copyright-two:before {
+        width: 46%;
+    }
+
+    .bkbasketbol-classic-player-text {
+        padding: 15px 0px;
+    }
+
+    .bkbasketbol-classic-player-info > span {
+        margin: 0px;
+    }
+
+    .classic-player-option {
+        margin: 0px;
+    }
+
+    .bkbasketbol-classic-player-info p {
+        width: 100%;
+    }
+
+    .bkbasketbol-footer-two {
+        background-size: cover;
+    }
+
+    .bkbasketbol-header-one .navbar {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-header-one .navbar-collapse {
+        left: 0px;
+    }
+
+    .bkbasketbol-error-wrap form {
+        width: 100%;
+    }
+
+        .bkbasketbol-error-wrap form input[type="text"] {
+            width: 73%;
+        }
+
+        .bkbasketbol-error-wrap form:before, .bkbasketbol-error-wrap form:after {
+            right: 28%;
+        }
+
+    .bkbasketbol-account-tabs .nav-tabs li a {
+        padding: 19px 15px;
+    }
+
+    .bkbasketbol-account form ul li, .bkbasketbol-account form ul li.address {
+        width: 50%;
+    }
+
+        .bkbasketbol-account form ul li:last-child {
+            width: 100%;
+        }
+
+    .bkbasketbol-thumb {
+        background-size: cover;
+    }
+
+    .bkbasketbol-thumb-text {
+        padding: 100px 0px;
+    }
+
+    blockquote {
+        padding: 53px 0 26px 62px;
+    }
+
+    .bkbasketbol-prenxt-post ul li {
+        width: 100%;
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-prev-post:before, .bkbasketbol-prev-post:after {
+        left: -5px;
+        width: 15px;
+    }
+
+    .bkbasketbol-next-post:before, .bkbasketbol-next-post:after {
+        right: -5px;
+        width: 15px;
+    }
+
+    .bkbasketbol-prev-post:before {
+        -webkit-transform: rotate(12deg);
+        -moz-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        -o-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+
+    .bkbasketbol-prev-post:after {
+        -webkit-transform: rotate(-9deg);
+        -moz-transform: rotate(-9deg);
+        -ms-transform: rotate(-9deg);
+        -o-transform: rotate(-9deg);
+        transform: rotate(-9deg);
+    }
+
+    .bkbasketbol-next-post:before {
+        -webkit-transform: rotate(-12deg);
+        -moz-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        -o-transform: rotate(-12deg);
+        transform: rotate(-12deg);
+    }
+
+    .bkbasketbol-next-post:after {
+        -webkit-transform: rotate(11deg);
+        -moz-transform: rotate(11deg);
+        -ms-transform: rotate(11deg);
+        -o-transform: rotate(11deg);
+        transform: rotate(11deg);
+    }
+
+    .bkbasketbol-contact-form form ul li p > span {
+        width: 37px;
+    }
+
+    .bkbasketbol-contact-form form ul li p:after, .bkbasketbol-contact-form form ul li p:before {
+        right: 17%;
+    }
+
+    .bkbasketbol-contact-form form p input[type="text"] {
+        width: 84%;
+    }
+
+    .bkbasketbol-contact-form form p textarea {
+        width: 92%;
+    }
+
+    .bkbasketbol-contact-form form ul li.full-input p:before, .bkbasketbol-contact-form form ul li.full-input p:after {
+        right: 10%;
+    }
+
+    .bkbasketbol-article-options {
+        padding: 9px 25px 11px;
+    }
+
+    .widget_matches ul li {
+        text-align: center;
+    }
+
+        .widget_matches ul li > span {
+            float: none;
+            display: inline-block;
+        }
+
+    .bkbasketbol-team-two {
+        float: right;
+    }
+
+    .bkbasketbol-blog-grid section {
+        padding: 19px 22px 0;
+    }
+
+    .bkbasketbol-blog-grid-options {
+        padding: 21px 26px 10px;
+    }
+
+    .bkbasketbol-blogmodren-text {
+        padding: 34px 16px 18px 79px;
+    }
+
+    .bkbasketbol-teams-match, .bkbasketbol-buy-ticket {
+        width: 100%;
+    }
+
+    .bkbasketbol-first-team, .bkbasketbol-second-team {
+        width: 100%;
+    }
+
+    .bkbasketbol-first-team, .bkbasketbol-second-team {
+        padding: 28px 0 29px;
+    }
+
+    .bkbasketbol-match-view {
+        margin: 35px 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-fixture-wrap {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .bkbasketbol-teams-match figure ~ .bkbasketbol-first-team-info, .bkbasketbol-teams-match figure ~ .bkbasketbol-second-team-info {
+        display: inline-block;
+        margin: 0px 0px 0px 7px;
+        -webkit-transform: translateY(12px);
+        -moz-transform: translateY(12px);
+        -ms-transform: translateY(12px);
+        -o-transform: translateY(12px);
+        transform: translateY(12px);
+        padding: 0px;
+        text-align: center;
+    }
+
+    .bkbasketbol-first-team figure, .bkbasketbol-second-team figure {
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-first-team:before, .bkbasketbol-second-team:before {
+        display: none;
+    }
+
+    .bkbasketbol-fixture-wrap:before {
+        width: 100%;
+        height: 6px;
+        top: auto;
+        bottom: 22%;
+        right: 0px;
+    }
+
+    .bkbasketbol-buy-ticket {
+        padding: 34px 27px 34px 34px;
+    }
+
+    .bkbasketbol-thumb-team-one {
+        margin: 0px 0px 30px;
+    }
+
+    .sportmagazine-score-counter > span {
+        margin: 0px 0px 10px;
+    }
+
+    .bkbasketbol-main-content .bkbasketbol-fixture-thumb .col-md-4 {
+        width: 100%;
+    }
+
+    .bkbasketbol-blog-social ul li a i {
+        margin: -4px 11px 0px 0px;
+    }
+
+    .bkbasketbol-fixture ul li {
+        float: left;
+    }
+
+    .bkbasketbol-classic-match-text {
+        display: inline-block;
+        float: none;
+        padding: 27px 0 0;
+    }
+
+    .bkbasketbol-classic-fixture-wrap {
+        text-align: center;
+    }
+
+    .bkbasketbol-classic-match-text h6 {
+        font-size: 13px;
+    }
+
+    .bkbasketbol-classic-team-two {
+        padding: 70px 0px 69px;
+    }
+
+    .bkbasketbol-classic-team-one {
+        padding: 70px 4px 69px;
+    }
+
+    .bkbasketbol-fixture.bkbasketbol-classic-fixture ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-modren-fixture-text {
+        text-align: center;
+    }
+
+    .bkbasketbol-modren-match-text {
+        display: inline-block;
+        float: none;
+        padding: 0px;
+    }
+
+    .bkbasketbol-fixture.bkbasketbol-modren-fixture ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-modren-team-one {
+        padding: 40px 4px;
+    }
+
+    .bkbasketbol-modren-team-two {
+        padding: 40px 0;
+    }
+
+    .bkbasketbol-modren-match-text h6 {
+        font-size: 13px;
+    }
+
+    .bkbasketbol-offstanding-text li {
+        width: 50%;
+    }
+
+    .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > th, .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > td {
+        float: left;
+        padding: 20px 0px;
+        width: 25%;
+    }
+
+    .bkbasketbol-modern-gallerys figure figcaption {
+        margin: -72px 0 0;
+    }
+
+    .bkbasketbol-copyright p {
+        float: left;
+    }
+
+    .bkbasketbol-overview {
+        padding: 20px 10px;
+    }
+
+    .bkbasketbol-overview-wrap {
+        text-align: center;
+    }
+
+    .bkbasketbol-overview-team-one figure, .bkbasketbol-overview-team-two figure {
+        display: inline-block;
+        float: none;
+    }
+
+        .bkbasketbol-overview-team-one figure ~ section, .bkbasketbol-overview-team-two figure ~ section {
+            float: left;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+
+    .bkbasketbol-overview-team-one, .bkbasketbol-overview-team-two {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+        .bkbasketbol-overview-team-one section > span, .bkbasketbol-overview-team-two section > span {
+            display: inline-block;
+            float: none;
+        }
+
+    .bkbasketbol-overview-score {
+        display: inline-block;
+        float: none;
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-overview-team-one {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-overview-player-name {
+        width: 100%;
+    }
+
+    .bkbasketbol-overview-scorecard {
+        margin: 0px 0px 30px;
+        width: 100%;
+    }
+
+        .bkbasketbol-overview-scorecard ul {
+            float: left;
+            width: 100%;
+        }
+
+        .bkbasketbol-overview-scorecard li h6 {
+            line-height: 1.8;
+        }
+
+        .bkbasketbol-overview-scorecard ul li {
+            float: left;
+            width: 20%;
+            padding: 0px;
+        }
+
+    .bkbasketbol-gamestats-btn {
+        margin: 0 0px 23px 0;
+        padding: 12px 0px;
+        width: 80%;
+    }
+
+    .bkbasketbol-overview-skillbar .skillst {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    .bkbasketbol-overview-skillbar {
+        margin: 0px -10px;
+        padding: 0px;
+    }
+
+    .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > th, .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > th:last-child, .bkbasketbol-overview-graph .bkbasketbol-client-detail tr > td {
+        width: 30%;
+        padding: 12px 20px;
+    }
+
+    .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo {
+        padding: 0px;
+    }
+
+    .bkbasketbol-team-leader-section {
+        padding: 0px;
+        width: 100%;
+    }
+
+        .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo ul li:first-child {
+            padding: 12px 29px 10px 22px;
+        }
+
+        .bkbasketbol-team-leader-section ul li:last-child {
+            padding: 12px 22px 10px 29px;
+        }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-teams-match {
+        width: 100%;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-match-view {
+        padding: 40px 25px 40px 35px;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-fixture-wrap:before {
+        left: 0px;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-buy-ticket {
+        width: 100%;
+        padding: 23px 20px;
+    }
+
+    .bkbasketbol-player-thumb-text {
+        width: 100%;
+        margin: 0px;
+        padding: 42px 0 55px 0px;
+    }
+
+    .bkbasketbol-client-detail tr > th, .bkbasketbol-client-detail tr > td {
+        float: left;
+    }
+
+    .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > th, .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > td {
+        float: none;
+    }
+
+    .bkbasketbol-player-grid-text {
+        padding: 15px 9px 0 30px;
+    }
+
+    .bkbasketbol-player-list figure {
+        width: 100%;
+    }
+
+        .bkbasketbol-player-list figure ~ .bkbasketbol-player-list-text {
+            margin: 0px;
+        }
+
+    .bkbasketbol-player-list-text {
+        float: left;
+        width: 100%;
+        padding: 35px 22px 0;
+    }
+
+        .bkbasketbol-player-list-text:before {
+            height: 21px;
+            width: 50%;
+            left: 0px;
+            top: -10px;
+            -webkit-transform: rotate(-8deg);
+            -moz-transform: rotate(-8deg);
+            -ms-transform: rotate(-8deg);
+            -o-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        .bkbasketbol-player-list-text:after {
+            height: 21px;
+            width: 50%;
+            right: 0px;
+            left: auto;
+            bottom: auto;
+            top: -10px;
+            -webkit-transform: rotate(9deg);
+            -moz-transform: rotate(9deg);
+            -ms-transform: rotate(9deg);
+            -o-transform: rotate(9deg);
+            transform: rotate(9deg);
+        }
+
+    .bkbasketbol-player-list figure:before {
+        width: 50%;
+        height: 6px;
+        bottom: 10px;
+        top: auto;
+        right: 0px;
+    }
+
+    .bkbasketbol-player-list figure:after {
+        width: 50%;
+        height: 6px;
+        bottom: 10px;
+        top: auto;
+        right: auto;
+        left: 0;
+    }
+
+    .bkbasketbol-player-list figure a i {
+        right: 50%;
+        top: auto;
+        bottom: 2px;
+        margin: 0px -20px 0px 0px;
+    }
+
+    .bkbasketbol-player > ul > li {
+        float: left;
+        width: 50%;
+    }
+
+    .bkbasketbol-modern-player figure figcaption {
+        width: 180px;
+    }
+
+    .bkbasketbol-form-result form {
+        width: 100%;
+    }
+
+        .bkbasketbol-form-result form input[type="text"] {
+            width: 75%;
+        }
+
+        .bkbasketbol-form-result form:after, .bkbasketbol-form-result form:before {
+            right: 26%;
+        }
+
+    .bkbasketbol-shop-summery {
+        width: 100%;
+    }
+
+    .bkbasketbol-shop-grid figure .star-rating .star-rating-box:before {
+        left: 23px;
+    }
+
+    .bkbasketbol-shop-list figure {
+        width: 100%;
+    }
+
+        .bkbasketbol-shop-list figure ~ .bkbasketbol-shop-list-text {
+            margin: 0px;
+            float: left;
+            width: 100%;
+        }
+
+    .bkbasketbol-shop-list-text {
+        padding: 30px 20px;
+    }
+
+    .bkbasketbol-shop-list figure:before {
+        height: 30px;
+        width: 51%;
+        left: -1px;
+        bottom: -8px;
+        right: auto;
+        top: auto;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    .bkbasketbol-shop-list figure:after {
+        height: 30px;
+        width: 51%;
+        bottom: -8px;
+        right: -1px;
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    .bkbasketbol-shop > ul > li {
+        width: 50%;
+    }
+
+    .bkbasketbol-shop-list figure .star-rating .star-rating-box:before {
+        left: 15px;
+    }
+
+    .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th, .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th:first-child, .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > td {
+        padding: 12px 0px;
+        width: 33.333%;
+    }
+
+    .player-stats-text .star-rating {
+        width: 113%;
+    }
+
+    .bkbasketbol-shopping-cart > p input[type="text"] {
+        width: 90%;
+        margin: 0px 0px 20px;
+    }
+
+    .bkbasketbol-shopping-cart > p span {
+        margin: 0px 0px 20px;
+    }
+
+    .bkbasketbol-wishlist-graph ul {
+        float: left;
+        width: 100%;
+    }
+
+        .bkbasketbol-wishlist-graph ul li:first-child, .bkbasketbol-wishlist-graph ul li {
+            float: left;
+            padding: 11px 10px;
+            width: 20%;
+        }
+
+        .bkbasketbol-wishlist-graph ul.wishlist-graph li:first-child, .bkbasketbol-wishlist-graph ul.wishlist-graph li {
+            width: 50%;
+            padding: 11px 10px;
+        }
+
+    .bkbasketbol-topstrip {
+        padding: 22px 0px 0px;
+    }
+
+    .loginmodal .modal-dialog {
+        width: 440px;
+    }
+
+    .login-network li a {
+        padding: 5px 10px;
+    }
+
+    .bkbasketbol-blog-grid figure::before {
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    .bkbasketbol-search-box input[type="text"] {
+        font-size: 25px;
+        padding: 0 20px 24px;
+    }
+
+    .bkbasketbol-search-box i {
+        font-size: 20px;
+        top: 36px;
+        right: 20px;
+    }
+
+    .bkbasketbol-dropdown-menu .bkbasketbol-dropdown-menu {
+        left: 0px;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-main-header {
+        position: static;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-header-two .navbar {
+        position: static;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-logo-two, .bkbasketbol-sticky .header-info {
+        display: block;
+    }
+
+    .bkbasketbol-sticky .bkbasketbol-header-two .bkbasketbol-main-header {
+        background: #292c31;
+    }
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+    /*main grid*/
+    .bkbasketbol-main-content .col-md-4, .bkbasketbol-main-content .col-md-3, .bkbasketbol-main-content .col-md-6 {
+        margin-right: 0px;
+        width: 100%;
+    }
+    /*main grid*/
+
+    .bkbasketbol-search-btn {
+        padding: 21px 0 20px;
+        float: right;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .navbar-toggle {
+        margin: 15px 30px 30px 0px;
+    }
+
+    .bkbasketbol-add-banner:before, .bkbasketbol-add-banner:after, .bkbasketbol-add-banner figcaption:before,
+    .bkbasketbol-add-banner figcaption:after {
+        content: none;
+    }
+
+    .bkbasketbol-fixture-gallery ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-player-slider-caption {
+        width: 86%;
+    }
+
+        .bkbasketbol-player-slider-caption span ~ section {
+            margin-left: 100px;
+        }
+
+    .bkbasketbol-player-slider-image:before {
+        display: block;
+        top: auto;
+        bottom: 0px;
+        border-left: 40px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #ffdc11;
+        z-index: 1;
+        left: 35px;
+        right: auto;
+    }
+
+    .widget_trending_news .nav-tabs {
+        padding: 0px 12px;
+    }
+
+        .widget_trending_news .nav-tabs li {
+            padding: 0px 5px;
+        }
+
+    .bkbasketbol-info-list li span {
+        padding: 10px 10px 9px 8px;
+        font-size: 12px;
+    }
+
+    .widget_gallery ul li {
+        width: 33.333%;
+    }
+
+    .bkbasketbol-copyright {
+        text-align: center;
+    }
+
+    .bkbasketbol-copyright-link {
+        float: none;
+        display: inline-block;
+        margin: 0px 0px 17px;
+    }
+
+        .bkbasketbol-copyright-link li:before {
+            left: 0px;
+        }
+
+        .bkbasketbol-copyright-link li {
+            margin: 0px;
+            padding: 0px 10px;
+        }
+
+    .bkbasketbol-user-section > li {
+        margin: 0 30px 10px 0;
+    }
+
+    .bkbasketbol-logo {
+        margin: 0px 0px 15px;
+    }
+
+    .bkbasketbol-match-result ul li {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+        .bkbasketbol-match-result ul li.bkbasketbol-match-score {
+            padding: 0px 0px 30px;
+            width: 100%;
+        }
+
+    .bkbasketbol-blog-grid-options {
+        padding: 21px 15px 10px;
+    }
+
+    .bkbasketbol-addbanner-caption {
+        width: 100%;
+        padding: 5px 0px 0px 15px;
+    }
+
+        .bkbasketbol-addbanner-caption h2 {
+            font-size: 18px;
+            margin: 0px 0px 6px;
+        }
+
+        .bkbasketbol-addbanner-caption p {
+            font-size: 10px;
+            margin: 0px;
+        }
+
+    .bkbasketbol-add-banner:before {
+        height: 65px;
+        right: 30px;
+    }
+
+    .bkbasketbol-add-banner:after {
+        width: 65px;
+    }
+
+    .bkbasketbol-player-slider-nav:before {
+        content: none;
+    }
+
+    .bkbasketbol-fixture-slider-layer ul li.first-child:before, .bkbasketbol-fixture-slider-layer ul:before {
+        border-left: 95px solid transparent;
+        border-right: 95px solid transparent;
+    }
+
+    .bkbasketbol-match-fixture .bkbasketbol-client-detail tr > td {
+        float: left;
+        width: 50%;
+        padding: 15px 10px 15px 10px;
+        line-height: 2.3;
+    }
+
+    .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > td {
+        padding: 15px 9px 15px 7px;
+        width: auto;
+    }
+
+    .bkbasketbol-section-post-text {
+        width: 100%;
+    }
+
+        .bkbasketbol-section-post-text p {
+            width: 100%;
+        }
+
+        .bkbasketbol-section-post-text h3 {
+            font-size: 22px;
+        }
+
+    .game-countdown-heading {
+        padding: 14px 30px;
+    }
+
+    .bkbasketbol-next-game .bkbasketbol-result-one {
+        width: 100%;
+        margin: 0px 0px 28px;
+    }
+
+    .bkbasketbol-next-game-text {
+        display: inline-block;
+        float: none;
+        margin: 0px 0px 28px;
+    }
+
+    .bkbasketbol-result-one.bkbasketbol-result-two {
+        width: 100%;
+        padding: 0px 0px 20px;
+    }
+
+    .bkbasketbol-result-text {
+        width: 100%;
+    }
+
+        .bkbasketbol-result-text:before {
+            left: -3px;
+        }
+
+    .bkbasketbol-result-one {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .bkbasketbol-latest-result {
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-copyright-two:before, .bkbasketbol-copyright-two:after {
+        width: 42%;
+    }
+
+    .bkbasketbol-copyright-two p {
+        display: inline-block;
+        float: none;
+        margin: 0px 0px 20px;
+    }
+
+    .bkbasketbol-copyright-two {
+        text-align: center;
+    }
+
+    .bkbasketbol-footer-social {
+        float: none;
+        display: inline-block;
+    }
+
+    .bkbasketbol-footer-two:before, .bkbasketbol-footer-two:after {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .bkbasketbol-footer-two {
+        background-size: cover;
+    }
+
+    .header-info li {
+        width: 100%;
+    }
+
+    .header-info {
+        padding-left: 48px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow {
+        top: 33px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow-left.slick-arrow {
+        top: 34px;
+    }
+
+    .bkbasketbol-result-text:before {
+        border-left: 147px solid transparent;
+        border-right: 147px solid transparent;
+    }
+
+    .bkbasketbol-blog.bkbasketbol-blog-medium > ul > li {
+        width: 100%;
+    }
+
+    .bkbasketbol-blogmedium-text {
+        padding: 20px 40px 22px 35px;
+    }
+
+    .bkbasketbol-blog-medium figure:after {
+        bottom: -8px;
+    }
+
+    .bkbasketbol-testimonial-text:after {
+        width: 63%;
+    }
+
+    .bkbasketbol-footer-widget .widget {
+        width: 100%;
+    }
+
+    .bkbasketbol-classic-player-info {
+        top: 33px;
+    }
+
+    .widget-images-list .slick-arrow {
+        top: -83%;
+    }
+
+    .bkbasketbol-header-one .navbar {
+        float: left;
+    }
+
+    .bkbasketbol-header-one .navbar-collapse {
+        left: 0px;
+    }
+
+    .bkbasketbol-error-wrap form:before, .bkbasketbol-error-wrap form:after {
+        display: none;
+    }
+
+    .bkbasketbol-error-wrap form input[type="text"] {
+        width: 100%;
+        margin: 0px 0px 20px;
+        border: 1px solid #ececec;
+    }
+
+    .bkbasketbol-account-tabs .nav-tabs li {
+        width: 100%;
+    }
+
+    .bkbasketbol-upload-photo section label {
+        margin: 12px 0px 0px;
+    }
+
+    .bkbasketbol-account form ul li, .bkbasketbol-account form ul li.address {
+        width: 100%;
+    }
+
+    .bkbasketbol-tags, .bkbasketbol-blog-social {
+        width: 100%;
+        margin: 0px 0px 12px;
+    }
+
+    .bkbasketbol-contact-form form ul li {
+        width: 100%;
+    }
+
+    .bkbasketbol-contact-form form p input[type="text"] {
+        width: 82%;
+    }
+
+    .bkbasketbol-contact-form form ul li p:before, .bkbasketbol-contact-form form ul li p:after {
+        right: 19%;
+    }
+
+    .bkbasketbol-contact-form form p textarea {
+        width: 82%;
+    }
+
+    .bkbasketbol-contact-form form ul li.full-input p:before, .bkbasketbol-contact-form form ul li.full-input p:after {
+        right: 21%;
+    }
+
+    .bkbasketbol-prev-post:before, .bkbasketbol-prev-post:after {
+        left: -5px;
+        width: 15px;
+    }
+
+    .bkbasketbol-next-post:before, .bkbasketbol-next-post:after {
+        right: -5px;
+        width: 15px;
+    }
+
+    .bkbasketbol-prev-post:before {
+        -webkit-transform: rotate(12deg);
+        -moz-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        -o-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+
+    .bkbasketbol-prev-post:after {
+        -webkit-transform: rotate(-9deg);
+        -moz-transform: rotate(-9deg);
+        -ms-transform: rotate(-9deg);
+        -o-transform: rotate(-9deg);
+        transform: rotate(-9deg);
+    }
+
+    .bkbasketbol-next-post:before {
+        -webkit-transform: rotate(-12deg);
+        -moz-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        -o-transform: rotate(-12deg);
+        transform: rotate(-12deg);
+    }
+
+    .bkbasketbol-next-post:after {
+        -webkit-transform: rotate(11deg);
+        -moz-transform: rotate(11deg);
+        -ms-transform: rotate(11deg);
+        -o-transform: rotate(11deg);
+        transform: rotate(11deg);
+    }
+
+    .bkbasketbol-team-two {
+        float: right;
+    }
+
+    .widget_matches ul li {
+        text-align: center;
+    }
+
+        .widget_matches ul li > span {
+            float: none;
+            display: inline-block;
+        }
+
+    .bkbasketbol-contact-form form ul li p > span {
+        width: 45px;
+    }
+
+    .bkbasketbol-article-options {
+        padding: 9px 30px 11px;
+    }
+
+    .bkbasketbol-blog-grid section {
+        padding: 19px 30px 0;
+    }
+
+    .bkbasketbol-blogmodren-text {
+        padding: 34px 25px 18px 87px;
+    }
+
+    .bkbasketbol-contact-us-text {
+        margin: 0px 0px 20px;
+    }
+
+    .bkbasketbol-buy-ticket-text, .ticket-buy-btn {
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-fixture-wrap:before {
+        bottom: 27%;
+    }
+
+    .bkbasketbol-classic-team-one {
+        width: 100%;
+        padding-top: 30px 26px 69px;
+    }
+
+        .bkbasketbol-classic-team-one:after {
+            border-bottom: 55px solid #f5f5f5;
+            border-left: 120px solid transparent;
+        }
+
+        .bkbasketbol-classic-team-one:before {
+            border-bottom: 55px solid #f5f5f5;
+            border-right: 120px solid transparent;
+            left: 0px;
+            bottom: 0px;
+            right: auto;
+            top: auto;
+            border-left: none;
+            border-top: none;
+        }
+
+    .bkbasketbol-classic-match-text {
+        width: 100%;
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-classic-team-two {
+        width: 100%;
+        padding-bottom: 70px 16px 30px;
+    }
+
+        .bkbasketbol-classic-team-two:after {
+            border-top: 55px solid #f5f5f5;
+            border-left: 120px solid transparent;
+            right: 0px;
+            left: auto;
+            top: 0;
+            bottom: auto;
+            border-bottom: none;
+            border-right: none;
+        }
+
+        .bkbasketbol-classic-team-two:before {
+            border-right: 120px solid transparent;
+            border-top: 55px solid #f5f5f5;
+        }
+
+    .bkbasketbol-classic-match-text h6, .bkbasketbol-modren-match-text h6 {
+        font-size: 14px;
+    }
+
+    .bkbasketbol-modren-fixture-wrap {
+        padding: 15px 0px;
+    }
+
+    .bkbasketbol-modren-fixture-text {
+        padding: 0px 20px 20px;
+    }
+
+    .bkbasketbol-modren-team-one {
+        width: 100%;
+        margin: -15px 0px 30px;
+        padding: 40px 25px 50px 26px;
+    }
+
+        .bkbasketbol-modren-team-one:after {
+            border-bottom: 55px solid #ffdc11;
+            border-left: 100px solid transparent;
+        }
+
+        .bkbasketbol-modren-team-one:before {
+            border-bottom: 55px solid #ffdc11;
+            border-right: 100px solid transparent;
+            left: 0px;
+            bottom: 0px;
+            right: auto;
+            top: auto;
+            border-left: none;
+            border-top: none;
+        }
+
+        .bkbasketbol-modren-team-one > span {
+            height: auto;
+            width: 100%;
+        }
+
+            .bkbasketbol-modren-team-one > span:before {
+                left: -15px;
+                top: 0;
+            }
+
+            .bkbasketbol-modren-team-one > span:after {
+                bottom: auto;
+                top: 0;
+                left: auto;
+                right: -15px;
+                border-bottom: 15px solid #27282a;
+                border-right: 15px solid transparent;
+                border-left: none;
+                border-top: none;
+            }
+
+    .bkbasketbol-modren-match-text {
+        width: 100%;
+        padding: 0px;
+        margin: 0px 0px 30px;
+    }
+
+    .bkbasketbol-modren-team-two {
+        width: 100%;
+        margin: 0px 0px -35px;
+        padding: 40px 17px 40px 16px;
+    }
+
+        .bkbasketbol-modren-team-two:after {
+            border-top: 55px solid #ffdc11;
+            border-left: 100px solid transparent;
+            right: 0px;
+            left: auto;
+            top: 0;
+            bottom: auto;
+            border-bottom: none;
+            border-right: none;
+        }
+
+        .bkbasketbol-modren-team-two:before {
+            border-right: 100px solid transparent;
+            border-top: 55px solid #ffdc11;
+        }
+
+        .bkbasketbol-modren-team-two > span {
+            width: 100%;
+            height: auto;
+            top: auto;
+            bottom: 0px;
+        }
+
+            .bkbasketbol-modren-team-two > span:after {
+                right: -15px;
+                bottom: 0px;
+            }
+
+            .bkbasketbol-modren-team-two > span:before {
+                left: -15px;
+                right: auto;
+                bottom: 0px;
+                top: auto;
+                border-top: 15px solid #27282a;
+                border-left: 15px solid transparent;
+                border-bottom: none;
+                border-right: none;
+            }
+
+    .bkbasketbol-offstanding-text li {
+        width: 100%;
+    }
+
+    .bkbasketbol-modern-gallerys figure figcaption {
+        margin: -49px 0 0;
+    }
+
+    .bkbasketbol-copyright p {
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-login-form, .bkbasketbol-register-form.bkbasketbol-login-form {
+        padding: 31px 12px 25px;
+    }
+
+        .bkbasketbol-login-form h4:before {
+            width: 100%;
+        }
+
+    .bkbasketbol-overview-scorecard ul li {
+        width: 25%;
+    }
+
+    .bkbasketbol-gamestats-btn {
+        margin: 0 0px 23px 0;
+        padding: 12px 0px;
+        width: 100%;
+    }
+
+    .bkbasketbol-overview-skillbar .skillst {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .bkbasketbol-overview-skillbar {
+        margin: 0px;
+    }
+
+    .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > th, .bkbasketbol-roster-graph .bkbasketbol-client-detail tr > th:last-child {
+        width: 40%;
+        float: left;
+        padding: 10px 0px;
+    }
+
+    .bkbasketbol-overview-graph .bkbasketbol-client-detail tr > td {
+        padding: 10px 0px;
+        float: left;
+        width: 33.333%;
+    }
+
+    .bkbasketbol-team-leader-section ul {
+        float: left;
+        width: 100%;
+    }
+
+        .bkbasketbol-team-leader-section ul li {
+            float: left;
+            padding: 12px 0px;
+            width: 50%;
+            text-align: center;
+        }
+
+    .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo ul li {
+        padding: 12px 0px;
+    }
+
+        .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo ul li:first-child {
+            padding: 12px 0;
+        }
+
+    .bkbasketbol-player-info li {
+        width: 50%;
+    }
+
+    .bkbasketbol-client-detail tr > th, .bkbasketbol-client-detail tr > td {
+        width: 50%;
+    }
+
+    .bkbasketbol-player-grid figure span:before {
+        margin: 0px 0px 0px -12px;
+    }
+
+    .bkbasketbol-player-grid figure span:after {
+        margin: 0px -12px 0px 0px;
+    }
+
+    .bkbasketbol-player-grid-text {
+        padding: 15px 12px 0px 30px;
+    }
+
+    .bkbasketbol-player > ul > li {
+        width: 100%;
+    }
+
+    .bkbasketbol-player-list-text {
+        padding: 35px 30px 0;
+    }
+
+    .bkbasketbol-modern-player figure figcaption {
+        width: 200px;
+    }
+
+    .bkbasketbol-form-result form input[type="text"] {
+        width: 100%;
+        border: 1px solid #ececec;
+    }
+
+    .bkbasketbol-form-result form:before, .bkbasketbol-form-result form:after {
+        display: none;
+    }
+
+    .bkbasketbol-form-result h2 {
+        font-size: 26px;
+        padding: 12px 13px;
+    }
+
+        .bkbasketbol-form-result h2:before {
+            border-left: 141px solid transparent;
+            border-right: 141px solid transparent;
+        }
+
+    .star-rating {
+        width: 30%;
+    }
+
+    .star-rating-box:before {
+        left: 0px;
+    }
+
+    .bkbasketbol-summery-option > li:last-child {
+        margin-right: 0px;
+    }
+
+    .bkbasketbol-summery-option > li {
+        margin: 0 25px 10px 0;
+    }
+
+    .bkbasketbol-shop-tabs .nav-tabs li {
+        margin: 0px 5px 10px 0px;
+    }
+
+    .bkbasketbol-shop-grid figure .star-rating .star-rating-box:before {
+        left: 28px;
+    }
+
+    .bkbasketbol-shop > ul > li {
+        width: 100%;
+    }
+
+    .bkbasketbol-shopping-cart p {
+        padding: 23px 10px 22px;
+    }
+
+    .player-stats-text .star-rating-box:before {
+        left: -5px;
+    }
+
+    .bkbasketbol-shopping-cart-total > span .cart-checkout-btn {
+        padding: 13px 60px 12px;
+    }
+
+    .player-stats-text .star-rating {
+        width: 93%;
+    }
+
+    .bkbasketbol-shopping-cart > p input[type="text"] {
+        width: 100%;
+    }
+
+    .bkbasketbol-wishlist-graph ul li {
+        width: 50%;
+    }
+
+    .bkbasketbol-wishlist-graph ul.wishlist-graph li:first-child {
+        padding: 11px 10px;
+        width: 100%;
+    }
+
+    .bkbasketbol-wishlist-graph ul.wishlist-graph li {
+        width: 100%;
+        padding: 11px 10px;
+    }
+
+    .bkbasketbol-wishlist-graph .star-rating-box:before {
+        left: 9px;
+    }
+
+    .bkbasketbol-account-tabs .nav-tabs li.active a:before {
+        z-index: 1;
+    }
+
+    .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > th {
+        padding: 15px 13px 15px 30px;
+    }
+
+    .bkbasketbol-client-detail tr {
+        float: left;
+        width: 100%;
+    }
+
+    .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > th, .bkbasketbol-team-ranking .bkbasketbol-client-detail tr > td {
+        float: left;
+    }
+
+    .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th, .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th:first-child, .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > td {
+        padding: 12px 0px;
+        width: 50%;
+    }
+
+    .bkbasketbol-featured-caption h2, .bkbasketbol-addbanner-caption .bkbasketbol-banner-btn {
+        display: none;
+    }
+
+    .bkbasketbol-banner {
+        	/* display: none;*/
+    }
+
+    .bkbasketbol-search-box input[type="text"], .bkbasketbol-search-box i {
+        font-size: 20px;
+    }
+
+    .bkbasketbol-search-box i {
+        top: 33px;
+    }
+
+    .bkbasketbol-search-box input[type="text"] {
+        height: 88px;
+        padding: 0px 0px 0px 13px;
+    }
+
+    .bkbasketbol-player-slider-nav::after {
+        display: none;
+    }
+
+    .bkbasketbol-player-slider-nav {
+        width: 100%;
+    }
+
+    .loginmodal .modal-dialog {
+        margin: 30px 0px 0px 20px;
+        width: 85%;
+    }
+
+    .bkbasketbol-login-box {
+        padding: 31px 20px 33px;
+    }
+
+    .login-network li a {
+        padding: 5px 8px;
+    }
+
+    .login-network li {
+        width: 50%;
+    }
+
+    .bkbasketbol-wishlist-graph ul li:first-child, .bkbasketbol-wishlist-graph ul li {
+        width: 50%;
+    }
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+    .bkbasketbol-dropdown-menu {
+        width: 200px;
+        left: -8px;
+    }
+
+    .bkbasketbol-fixture-slider-layer ul:before, .bkbasketbol-fixture-slider-layer ul li.first-child:before {
+        border-left: 66px solid transparent;
+        border-right: 66px solid transparent;
+    }
+
+    .bkbasketbol-match-result {
+        background-position: center;
+    }
+
+    .bkbasketbol-blog-grid-options {
+        padding: 21px 17px 10px;
+    }
+
+    .bkbasketbol-blog-list-wrap {
+        padding: 19px 18px;
+    }
+
+    .bkbasketbol-blog-grid section {
+        padding: 19px 25px 0;
+    }
+
+    .widget_trending_news .nav-tabs li {
+        padding: 0px 9px;
+    }
+
+    .widget_trending_news .nav-tabs {
+        padding: 0px 2px;
+    }
+
+    .bkbasketbol-addbanner-caption {
+        padding: 50px 0 0 60px;
+        width: 80%;
+    }
+
+    .bkbasketbol-add-banner:before {
+        right: 35px;
+        height: 200px;
+    }
+
+    .bkbasketbol-add-banner:after {
+        width: 200px;
+        bottom: 30px;
+    }
+
+    .bkbasketbol-add-banner figcaption:before {
+        height: 200px;
+        left: 30px;
+    }
+
+    .bkbasketbol-add-banner figcaption:after {
+        width: 200px;
+        top: 30px;
+    }
+
+    .bkbasketbol-player-slider-caption {
+        width: 70%;
+    }
+
+    .bkbasketbol-fixture-gallery figure figcaption h6 {
+        padding: 0px 20px;
+    }
+
+    .ranking-content-table img ~ .ranking-logo {
+        margin-left: 36px;
+    }
+
+    .ranking-content-table li {
+        padding: 16px 10px 12px;
+    }
+    /*.navbar-nav > li { padding: 48px 20px 47px;}*/
+    .navbar-nav > li {
+        padding: 45px 10px 35px;
+    }
+
+    .bkbasketbol-header-two .navbar-nav > li {
+        padding: 19px 20px;
+    }
+
+    .bkbasketbol-banner-two-wrap {
+        width: 61%;
+    }
+
+    .bkbasketbol-banner-text {
+        padding: 15px 0 20px;
+    }
+
+        .bkbasketbol-banner-text h1 {
+            margin: 0px 0px 15px;
+        }
+
+    .bkbasketbol-banner-two .bkbasketbol-banner-caption {
+        margin: 0px 0px -147px;
+    }
+
+    .bkbasketbol-banner-two-thumb {
+        width: 40%;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow {
+        right: -41px;
+        top: 27px;
+    }
+
+    .bkbasketbol-partner-slider .slick-arrow-left.slick-arrow {
+        left: -40px;
+        top: 27px;
+    }
+
+    .bkbasketbol-section-post-text {
+        width: 60%;
+    }
+
+    .bkbasketbol-score-result {
+        padding: 61px 54px 65px;
+    }
+
+    .bkbasketbol-result-one {
+        padding: 109px 0 55px 0px;
+    }
+
+    .bkbasketbol-result-two {
+        padding: 109px 0px 55px 0;
+    }
+
+    .bkbasketbol-result-text:before {
+        left: -54px;
+    }
+
+    .bkbasketbol-next-game .bkbasketbol-result-one {
+        margin: 0 0px 28px 0;
+        padding: 0px 19px
+    }
+
+    .bkbasketbol-next-game .bkbasketbol-result-two {
+        padding: 0px 19px;
+    }
+
+    .bkbasketbol-banner-two .slick-dots {
+        bottom: 0px;
+    }
+
+    .bkbasketbol-match-fixture .bkbasketbol-client-detail tr > td {
+        padding: 15px 10px 15px 10px;
+    }
+
+    .bkbasketbol-blog-medium figure {
+        width: 250px;
+    }
+
+        .bkbasketbol-blog-medium figure ~ .bkbasketbol-blogmedium-text {
+            margin: 0px 0px 0px 250px;
+        }
+
+    .bkbasketbol-blogmedium-text {
+        padding: 35px 0 5px 6px;
+    }
+
+    .bkbasketbol-blogmedium-option li {
+        margin: 0px 7px 0px 0px;
+    }
+
+    .bkbasketbol-blogmedium-social {
+        padding: 10px 0px 0px;
+    }
+
+    .bkbasketbol-classic-player-info {
+        top: 30px;
+    }
+
+    .bkbasketbol-testimonial-text:after {
+        width: 64%;
+    }
+
+    .bkbasketbol-error-wrap form {
+        width: 71%;
+    }
+
+    .bkbasketbol-thumb-text h2 {
+        width: 68%;
+        font-size: 32px;
+        line-height: 37px;
+        margin: 0px 0px 10px;
+    }
+
+    .bkbasketbol-team-two {
+        float: right;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .bkbasketbol-team-one {
+        margin: 0 13px 0 0;
+    }
+
+    .widget_matches ul li {
+        padding: 20px 0px;
+    }
+
+    .bkbasketbol-article-options {
+        padding: 9px 27px 11px;
+    }
+
+    .bkbasketbol-contact-form form p input[type="text"] {
+        width: 85%;
+    }
+
+    .bkbasketbol-contact-form form ul li p:after, .bkbasketbol-contact-form form ul li p:before {
+        right: 16%;
+    }
+
+    .bkbasketbol-first-team {
+        padding: 28px 26px 29px 36px;
+    }
+
+    .bkbasketbol-second-team {
+        padding: 28px 32px 29px 15px;
+    }
+
+    .bkbasketbol-buy-ticket {
+        padding: 34px 9px 0px 13px;
+    }
+
+    .bkbasketbol-match-info li:last-child {
+        margin-right: 0px;
+    }
+
+    .widget_cetagories ul li a:after, .widget_cetagories ul li a:before {
+        border-right: 153px solid transparent;
+    }
+
+    .bkbasketbol-match-info li {
+        margin: 0 11px 10px 0;
+    }
+
+    .bkbasketbol-tags a:last-child {
+        margin-right: 0px;
+    }
+
+    .bkbasketbol-blog-social ul li:first-child {
+        margin-left: 0px;
+    }
+
+    .bkbasketbol-classic-match-text {
+        display: inline-block;
+        float: none;
+        padding: 27px 0px 0px;
+    }
+
+    .bkbasketbol-classic-fixture-wrap, .bkbasketbol-modren-fixture-wrap {
+        text-align: center;
+    }
+
+    .bkbasketbol-classic-team-one {
+        padding: 70px 1px 69px;
+    }
+
+    .bkbasketbol-classic-team-two {
+        padding: 70px 0 69px;
+    }
+
+    .bkbasketbol-modren-team-one {
+        padding: 40px 1px;
+    }
+
+    .bkbasketbol-modren-team-two {
+        padding: 40px 0px;
+    }
+
+    .bkbasketbol-modren-match-text {
+        padding: 0px;
+        display: inline-block;
+        float: none;
+    }
+
+    .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > th, .bkbasketbol-playoff-staning .bkbasketbol-client-detail tr > td {
+        float: left;
+        padding: 20px 0px;
+        width: 8%;
+    }
+
+    .bkbasketbol-offstanding-text li {
+        padding: 11px 0px 10px 15px;
+    }
+
+    .bkbasketbol-overview {
+        padding: 44px 10px 15px;
+    }
+
+    .bkbasketbol-overview-team-one {
+        padding: 90px 10px 29px 0px;
+    }
+
+    .bkbasketbol-overview-team-two {
+        float: right;
+        padding: 94px 0 29px 10px;
+    }
+
+    .bkbasketbol-overview-scorecard {
+        margin: 0px 2px 30px;
+    }
+
+    .bkbasketbol-gamestats-btn {
+        margin: 0px 0px 23px;
+    }
+
+    .bkbasketbol-team-leader-section {
+        padding: 0px 7px 0px 0px;
+    }
+
+        .bkbasketbol-team-leader-section.bkbasketbol-team-leader-sectiontwo {
+            padding: 0px 0px 0px 7px;
+        }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-first-team, .bkbasketbol-fixture-mini-list .bkbasketbol-second-team {
+        padding: 28px 10px 29px;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-teams-match {
+        width: 69%;
+    }
+
+    .bkbasketbol-fixture-mini-list .bkbasketbol-buy-ticket {
+        width: 31%;
+        padding: 12px 10px 0px;
+        text-align: center;
+    }
+
+    .bkbasketbol-client-detail tr > td {
+        padding: 14px 23px 10px 24px;
+    }
+
+    .bkbasketbol-player-list figure {
+        width: 237px;
+    }
+
+        .bkbasketbol-player-list figure ~ .bkbasketbol-player-list-text {
+            margin-left: 230px;
+        }
+
+    .bkbasketbol-player-list-text {
+        padding: 10px 13px 0px;
+        z-index: 1;
+    }
+
+    .bkbasketbol-forword-btn {
+        position: relative;
+    }
+
+    .bkbasketbol-player-list figure:before, .bkbasketbol-player-list figure:after {
+        z-index: 2;
+        right: 15px;
+    }
+
+    .bkbasketbol-player-list figure a i {
+        z-index: 3;
+    }
+
+    .bkbasketbol-player-social {
+        padding: 12px 0px;
+    }
+
+    .bkbasketbol-form-result form {
+        width: 97%;
+    }
+
+    .star-rating-box:before {
+        left: 18px;
+    }
+
+    .bkbasketbol-shop-grid figure .star-rating .star-rating-box:before {
+        left: 9px;
+    }
+
+    .bkbasketbol-shop-list-text {
+        padding: 12px 0 20px 30px;
+    }
+
+        .bkbasketbol-shop-list-text p {
+            margin: 0px 0px 9px;
+        }
+
+    .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th:first-child, .bkbasketbol-shopping-cart .bkbasketbol-client-detail tr > th {
+        padding: 9px 10px 7px;
+    }
+
+    .bkbasketbol-shopping-cart-total > span .cart-checkout-btn {
+        padding: 13px 0px 12px;
+        width: 100%;
+    }
+
+    .bkbasketbol-shopping-cart p {
+        padding: 23px 0 22px 20px;
+    }
+
+    .bkbasketbol-shopping-cart > p input[type="text"] {
+        margin: 0 12px 0 0;
+    }
+
+    .bkbasketbol-shopping-cart > p span {
+        margin: 6px 15px 0 0;
+    }
+
+    .bkbasketbol-wishlist-graph .star-rating {
+        width: 80%;
+    }
+
+    .bkbasketbol-contact-text {
+        padding: 13px 7px;
+    }
+
+    .bkbasketbol-contact-us-text li time span {
+        margin: 0px 0px 0px 14px;
+    }
+
+    .player-stats-text .star-rating-box::before {
+        left: -4px;
+    }
+
+    .bkbasketbol-dropdown-menu .bkbasketbol-dropdown-menu {
+        left: 68%;
+    }
+
+
+    /*Banner*/
+    .bkbasketbol-banner-wrap {
+        width: 70%;
+        padding: 30px 0px 0px;
+    }
+
+    .bkbasketbol-banner-thumb {
+        width: 28%;
+    }
+}
+
+
+.bkbasketbol-blog ul.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .bkbasketbol-blog ul.row > li {
+        background: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+        border-left: 15px solid #fff;
+        border-right: 15px solid #fff;
+    }
