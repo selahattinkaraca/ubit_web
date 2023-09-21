@@ -30,6 +30,17 @@
                     </ul>
                 </li>
 
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class='bx bx-images'></i>
+                        <span>Sliderlar</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="true">
+                        <li><a href="{{ route('sliders.index') }}">Listele</a></li>
+                        <li><a href="{{ route('sliders.create') }}">Ekle</a></li>
+                    </ul>
+                </li>
+
 
 
             </ul>
