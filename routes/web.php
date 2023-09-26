@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\SliderController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -42,12 +43,33 @@ Route::prefix('/ubitcms')->group(function () {
             Route::get('/slider/{slider}', [SliderController::class, 'edit'])->name('edit');
             Route::post('/slider/{slider}', [SliderController::class, 'update'])->name('update');
         });
+
+        Route::name('contacts.')->group(function (){
+            // List
+            Route::get('/contacts', [ContactController::class, 'index'])->name('index');
+            // Add
+            Route::get('/contact/create', [ContactController::class, 'create'])->name('create');
+            Route::post('/contact/create', [ContactController::class, 'store'])->name('store');
+            // Delete
+            Route::post('/contact/delete/{contact}', [ContactController::class, 'destroy'])->name('delete');
+            // Update
+            Route::get('/contact/{contact}', [ContactController::class, 'edit'])->name('edit');
+            Route::post('/contact/{contact}', [ContactController::class, 'update'])->name('update');
+        });
+
+
     });
 
 
 
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 });
+
+
+
+
+
+
 
 Auth::routes();
 

@@ -41,6 +41,17 @@
                     </ul>
                 </li>
 
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class='bx bxs-contact'></i>
+                        <span>İletişim</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="true">
+                        <li><a href="{{ route('contacts.index') }}">Listele</a></li>
+                        <li><a href="{{ route('contacts.create') }}">Ekle</a></li>
+                    </ul>
+                </li>
+
 
 
             </ul>
