@@ -19,8 +19,7 @@ class SliderController extends Controller
 
     public function create()
     {
-        $sliders = Slider::all();
-        return view('admin.sliders.create', ['sliders' => $sliders]);
+        return view('admin.sliders.create');
     }
     public function store(SliderRequest $request)
     {
@@ -32,7 +31,6 @@ class SliderController extends Controller
     }
     public function edit(Slider $slider)
     {
-        $sliders = Slider::all();
         return view('admin.sliders.edit', [ 'slider' => $slider]);
     }
     public function update(SliderRequest $request, Slider $slider)

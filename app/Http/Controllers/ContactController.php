@@ -17,8 +17,7 @@ class ContactController extends Controller
 
     public function create()
     {
-        $contacts = Contact::all();
-        return view('admin.contact.create', ['contacts' => $contacts]);
+        return view('admin.contact.create');
     }
 
     public function store(ContactRequest $request)
@@ -29,7 +28,6 @@ class ContactController extends Controller
 
     public function edit(Contact $contact)
     {
-        $contacts = Contact::all();
         return view('admin.contact.edit',['contact'=>$contact]);
 
     }
