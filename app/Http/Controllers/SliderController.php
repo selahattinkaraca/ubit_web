@@ -37,7 +37,6 @@ class SliderController extends Controller
     }
     public function update(SliderRequest $request, Slider $slider)
     {
-        $slider = Slider::find($slider->id);
         $slider->update($request->validated());
         if ($request->file('image')) {
             $slider->clearMediaCollection();
