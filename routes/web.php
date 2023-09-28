@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\SliderController;
 use App\Http\Controllers\ContactController;
+use \App\Http\Controllers\SponsorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,6 +56,19 @@ Route::prefix('/ubitcms')->group(function () {
             // Update
             Route::get('/contact/{contact}', [ContactController::class, 'edit'])->name('edit');
             Route::post('/contact/{contact}', [ContactController::class, 'update'])->name('update');
+        });
+
+        Route::name('sponsors.')->group(function () {
+            // List
+            Route::get('/sponsors', [SponsorController::class, 'index'])->name('index');
+            // Add
+            Route::get('/sponsor/create', [SponsorController::class, 'create'])->name('create');
+            Route::post('/sponsor/create', [SponsorController::class, 'store'])->name('store');
+            // Delete
+            Route::post('/sponsor/delete/{sponsor}', [SponsorController::class, 'destroy'])->name('delete');
+            // Update
+            Route::get('/sponsor/{sponsor}', [SponsorController::class, 'edit'])->name('edit');
+            Route::post('/sponsor/{sponsor}', [SponsorController::class, 'update'])->name('update');
         });
 
 

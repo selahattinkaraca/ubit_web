@@ -52,6 +52,17 @@
                     </ul>
                 </li>
 
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class='bx bx-copyright'></i>
+                        <span>Sponsorlar</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="true">
+                        <li><a href="{{ route('sponsors.index') }}">Listele</a></li>
+                        <li><a href="{{ route('sponsors.create') }}">Ekle</a></li>
+                    </ul>
+                </li>
+
 
 
             </ul>
