@@ -45,7 +45,7 @@ class SliderController extends Controller
     public function destroy(Slider $slider)
     {
         $slider->clearMediaCollection();
-        Slider::deleted($slider->id);
+        $slider->delete();
         return redirect(route('sliders.index'));
     }
 }

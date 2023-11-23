@@ -40,8 +40,7 @@ class ContactController extends Controller
 
     public function destroy(Contact $contact)
     {
-        $contact->clearMediaCollection();
-        Contact::deleted($contact->id);
+        $contact->delete();
         return redirect(route('contacts.index'));
     }
 

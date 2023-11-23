@@ -43,7 +43,7 @@ class SponsorController extends Controller
     public function destroy(Sponsor $sponsor)
     {
         $sponsor->clearMediaCollection();
-        Sponsor::deleted($sponsor->id);
+        $sponsor->delete();
         return redirect(route('sponsors.index'));
     }
 }

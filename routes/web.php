@@ -37,9 +37,9 @@ Route::prefix('/ubitcms')->group(function () {
             Route::get('/slider/create', [SliderController::class, 'create'])->name('create');
             Route::post('/slider/create', [SliderController::class, 'store'])->name('store');
             // Delete
-            Route::get('/slider/delete/{slider}', [SliderController::class, 'destroy'])->name('delete');
+            Route::post('/slider/delete/{slider}', [SliderController::class, 'destroy'])->name('delete');
             // Delete
-            Route::get('/slider/image/delete/{slider}', [SliderController::class, 'delete'])->name('delete');
+            //Route::get('/slider/image/delete/{slider}', [SliderController::class, 'delete'])->name('delete');
             // Update
             Route::get('/slider/{slider}', [SliderController::class, 'edit'])->name('edit');
             Route::post('/slider/{slider}', [SliderController::class, 'update'])->name('update');
@@ -48,7 +48,7 @@ Route::prefix('/ubitcms')->group(function () {
         Route::name('contacts.')->group(function (){
             // List
             Route::get('/contacts', [ContactController::class, 'index'])->name('index');
-            // Add
+            // Addx
             Route::get('/contact/create', [ContactController::class, 'create'])->name('create');
             Route::post('/contact/create', [ContactController::class, 'store'])->name('store');
             // Delete
@@ -64,11 +64,13 @@ Route::prefix('/ubitcms')->group(function () {
             // Add
             Route::get('/sponsor/create', [SponsorController::class, 'create'])->name('create');
             Route::post('/sponsor/create', [SponsorController::class, 'store'])->name('store');
-            // Delete
-            Route::post('/sponsor/delete/{sponsor}', [SponsorController::class, 'destroy'])->name('delete');
+
             // Update
             Route::get('/sponsor/{sponsor}', [SponsorController::class, 'edit'])->name('edit');
             Route::post('/sponsor/{sponsor}', [SponsorController::class, 'update'])->name('update');
+
+            // Delete
+            Route::post('/sponsor/delete/{sponsor}', [SponsorController::class, 'destroy'])->name('delete');
         });
 
 

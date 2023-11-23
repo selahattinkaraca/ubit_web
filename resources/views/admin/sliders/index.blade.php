@@ -60,6 +60,12 @@
                                                class="text-warning"><i
                                                     class="bx bx-edit"></i></a>
                                         </li>
+                                        <li class="list-inline-item px-2">
+                                            <form action="{{ route('sliders.delete', $slider->id) }}" method="POST">
+                                                @csrf
+                                                <button type="submit" style="border: 0;background-color: transparent" class=""><i class=" text-danger bx bx-trash"></i></button>
+                                            </form>
+                                        </li>
                                     </ul>
                                 </td>
                             </tr>
